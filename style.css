@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    margin-inline: 24px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-info li {
+    display: inline-block;  
+}
+.table-skill li {
+    display: inline-block;  
+}
+.navbar {
+    margin: 30px auto;
+}
+.navbar__logo {
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 24px;
+}
+.navbar__name {
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.navbar__icon {
+    margin-left: 930px;
+}
+.navbar__icon a {
+    font-size: 24px;
+    color: #e83645;
+    margin-right: 8px;
+}
+.table-info__image img {
+    width: 80%;
+}
+td {
+    position: relative;
+    vertical-align: top;
+}
+.table-info__introduce-header {
+    width: 60%;
+    height: 100%;
+}
+.table-info__introduce .introduce_number {
+    font-size: 30px;
+    color: #e83645;
+    font-weight: 600;
+}
+.table-info__introduce-header li {
+    font-size: 14px;
+    margin-right: 20px;
+}
+h3 {
+    margin-top: 30px; 
+    margin-bottom: 30px;  
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: #e83645;
+    bottom: -4px;
+}
+.btn-download {
+    margin: 30px auto;
+    display: block;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: 2px  solid #e83645;
+    color: #e83645;
+    outline: none;
+}
+.table-skill {
+    width: 100%;
+}
+.table-skill .core-skills {
+    width: 50%;
+}
+.table-skill .other-skills {
+    width: 50%;
+}
+.table-skill li {
+    padding: 10px 20px;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;    
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.work-experience {
+    margin-bottom: 50px;
+}
+.work-experience li {
+    margin-left: 14px;
+    margin-top: 20px;
+}
+.work-experience .work-time {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.work-experience .company-name {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.work-experience .position {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
