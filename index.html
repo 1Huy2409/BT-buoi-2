@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- begin navbar -->
         <div class="navbar">
             <span class = "navbar__logo">J</span>
             <span class="navbar__name">JASON STROFF</span>
@@ -18,72 +19,70 @@
                 <a href="https://github.com/1Huy2409"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             </span>
         </div>
-        <table class="table-info">
-            <tr>
-                <td class="table-info__image">
-                    <img src="https://www.designstub.com/demos/defolio/assets/images/profile-image.jpg" alt="">
-                </td>
-                <td class="table-info__introduce">
-                    <div class="table-info__introduce-header">
-                        <p style="margin-top: 20px; font-weight: 500;">HI THERE</p>
-                        <h1 style="margin-top: 40px;">I'm Jason Stroff <br>UI/UX DESIGNER + DEVELOPER based in Florida</h1>
-                        <ul style="margin-top: 50px;">
-                            <li>
-                                <p class="introduce_number">6+</p>
-                                <p>Experience</p>
-                            </li>
-                            <li>
-                                <p class="introduce_number">89</p>
-                                <p>Projects</p>
-                            </li>
-                            <li>
-                                <p class="introduce_number">52</p>
-                                <p>Happy Clients</p>
-                            </li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <h3>ABOUT ME</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut, luctus convallis metus. Nunc vitae felis rutrum, mattis justo quis, bibendum tellus. Integer bibendum eget dolor nec venenatis. Aliquam erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.</p>
+        <!-- end navbar -->
+         <!-- begin information header-->
+        <div class="information">
+            <div class="information__image">
+                <img src="https://www.designstub.com/demos/defolio/assets/images/profile-image.jpg" alt="">
+            </div>
+            <div class="information__header">
+                <p style="margin-top: 20px; font-weight: 500;">HI THERE</p>
+                <h1 class="information-title">I'm Jason Stroff <br>UI/UX DESIGNER + <br>DEVELOPER based in Florida</h1>
+                <ul style="margin-top: 50px;">
+                    <li>
+                        <p class="introduce_number">6+</p>
+                        <p>Experience</p>
+                    </li>
+                    <li>
+                        <p class="introduce_number">89</p>
+                        <p>Projects</p>
+                    </li>
+                    <li>
+                        <p class="introduce_number">52</p>
+                        <p>Happy Clients</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end information header -->
+        <!-- begin about me -->
+        <div class="about-me">
+            <h3>ABOUT ME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut, luctus convallis metus. Nunc vitae felis rutrum, mattis justo quis, bibendum tellus. Integer bibendum eget dolor nec venenatis. Aliquam erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.</p>
+        </div>
         <button class="btn-download">DOWNLOAD RESUME</button>
         <div class="skills">
-            <table class="table-skill">
-                <tr>
-                    <td class="core-skills">
-                        <h3 class="skill-group-name">CORE SKILLS</h3>
-                        <ul>
-                            <li>Javascipt</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>MongoDB</li>
-                            <li>Vue.js</li>
-                            <br>
-                            <li>React</li>
-                            <li>Sequelize</li>
-                            <li>Github</li>
-                            <li>HTML</li>
-                        </ul>
-                    </td>
-                    <td class="other-skills">
-                        <h3 class="skill-group-name">OTHER SKILLS</h3>
-                        <ul>
-                            <li>Storyblok</li>
-                            <li>PWAs</li>
-                            <li>Responsive Web Design</li>
-                            <li>React</li>
-                            <br>
-                            <li>Vuetify</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+            <div class="core-skills">
+                <h3 class="skill-group-name">CORE SKILLS</h3>
+                <ul>
+                    <li>Javascipt</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Vue.js</li>
+                    <br>
+                    <li>React</li>
+                    <li>Sequelize</li>
+                    <li>Github</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+            <div class="other-skills">
+                <h3 class="skill-group-name">OTHER SKILLS</h3>
+                <ul>
+                    <li>Storyblok</li>
+                    <li>PWAs</li>
+                    <li>Responsive Web Design</li>
+                    <li>React</li>
+                    <br>
+                    <li>Vuetify</li>
+                </ul>
+            </div>
         </div>
-        <h3>WORK EXPERIENCE</h3>
-        <table class="work-experience">
-            <tr>
-                <td>
+        <div class="experience">
+            <h3>WORK EXPERIENCE</h3>
+            <div class="experience-flex">
+                <div class="col-1">
                     <p class="work-time">2019 - Present</p>
                     <p class="company-name">Matrix Media Inc</p>
                     <p class="position">Full Stack developer</p>
@@ -92,8 +91,8 @@
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     </ul>
-                </td>
-                <td>
+                </div>
+                <div class="col-2">
                     <p class="work-time">2018 - 2019</p>
                     <p class="company-name">Lexind</p>
                     <p class="position">Senior app developer</p>
@@ -103,9 +102,9 @@
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
                     </ul>
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
